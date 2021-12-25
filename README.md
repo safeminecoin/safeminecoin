@@ -39,5 +39,5 @@ We need your Contributor.
  
 #### [Linux Build Instructions](https://github.com/safeminecoin/safeminecoin/blob/master/doc/build-unix.md)
 
-#### Visit our Website [safeminecoin.org](http://safeminecoin.org/) Join us on [Telegram](https://t.me/safeminecoin) or find us on [Twitter](https://twitter.com/safeminecoin)
+#### Visit our Website [safeminecoin.org](http://safeminecoin.org/) Join us on [Telegram](https://t.me/safeminecoin) and [Discord](https://discord.gg/pV5rVwFzE8) or find us on [Twitter](https://twitter.com/safeminecoin)
 
