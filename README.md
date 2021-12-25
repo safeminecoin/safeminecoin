@@ -25,8 +25,6 @@ We need your Contributor.
 * Testnet Address T
 * RPC port	25251
 * P2P port	25252
-* Target Spacing    2 Minutes
-* Target timespan   10 minutes
 * Coinbase maturity (default 21 confirmation) blocks
 * Transaction (default 6 confirmation) blocks
 * * Block Rewards
@@ -41,6 +39,5 @@ We need your Contributor.
  
 #### [Linux Build Instructions](https://github.com/safeminecoin/safeminecoin/blob/master/doc/build-unix.md)
 
-#### Visit our Website [safeminecoin.org](http://safeminecoin.org/)
-
+#### Visit our Website [safeminecoin.org](http://safeminecoin.org/) Join us on [Telegram](https://t.me/safeminecoin) or find us on [Twitter](https://twitter.com/safeminecoin)
 
