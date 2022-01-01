@@ -37,7 +37,7 @@ We need your Contributor.
 * Target spacing    2 minutes
 * Target timespan   10 minutes
  
-#### [Linux Build Instructions](https://github.com/safeminecoin/safeminecoin/blob/master/doc/build-unix.md)
+#### [Linux Build Instructions](https://github.com/safeminecoin/safeminecoin/blob/master/doc/build-unix.md) Other guides refer to [Doc](https://github.com/safeminecoin/safeminecoin/tree/master/doc) and [Wiki](https://github.com/safeminecoin/safeminecoin/wiki) 
 
-#### Visit our Website [safeminecoin.org](http://safeminecoin.org/) Join us on [Telegram](https://t.me/safeminecoin) and [Discord](https://discord.gg/pV5rVwFzE8) or find us on [Twitter](https://twitter.com/safeminecoin)
+#### Visit our Website [safeminecoin.org](http://safeminecoin.org/) Join us on [Telegram](https://t.me/safeminecoin) and [Discord](https://discord.gg/pV5rVwFzE8) or find us on [Twitter](https://twitter.com/safeminecoin) and [facebook](https://www.facebook.com/profile.php?id=100076115306177)
 
