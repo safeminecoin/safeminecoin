@@ -39,5 +39,5 @@ We need your Contributor.
  
 #### [Linux Build Instructions](https://github.com/safeminecoin/safeminecoin/wiki/How-To#build-safeminecoin) Other guides refer to [Doc](https://github.com/safeminecoin/safeminecoin/tree/master/doc) and [Wiki](https://github.com/safeminecoin/safeminecoin/wiki) 
 
-#### Visit our Website [safeminecoin.org](http://safeminecoin.org/) Join us on [Telegram](https://t.me/safeminecoin) and [Discord](https://discord.gg/pV5rVwFzE8) or find us on [Twitter](https://twitter.com/safeminecoin) and [facebook](https://www.facebook.com/profile.php?id=100076115306177)
+#### Visit our Website [safeminecoin.org](http://safeminecoin.org/) Join us on [Telegram](https://t.me/safeminecoin) and [Discord](https://discord.gg/zmGr38eJYE) or find us on [Twitter](https://twitter.com/safeminecoin) and [facebook](https://www.facebook.com/profile.php?id=100076115306177)
 
