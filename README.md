@@ -14,8 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-The SafemineCoin is a decentralized P2P Open Source electronic currency to community driven. Pow and Pos - new coin new adventure.
-We need your Contributor.
+The SafeMineCoin is a hybrid PoW/PoS based cryptocurrency
 
 ### Coin Specification
 * Algorithm: Scrypt Proof of Work and Proof of Stake, Masternode (soon)
