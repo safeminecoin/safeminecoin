@@ -146,7 +146,9 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000515601d3a48a250b62584becbc12fa50fb12609dc81b0732e9a05804d72")); // 0x517419178a8d6c9d45c2d42bd3bab24419bf4ad0433410d0fd32458367caef9e"));
         assert(genesis.hashMerkleRoot == uint256S("0xb1aaa2e7d1bc5b982c83b94787057b2e7394062097e07944d55b51d23549a452")); //0xf0701c31be26a51c1c8d1bc857c4b49a5d54349ad912b42102ca2c0a164d1513"));
 
-        vSeeds.push_back(CDNSSeedData("158.69.130.185", "158.69.130.185",true));
+        vSeeds.push_back(CDNSSeedData("dnsseed.safeminecoin.org", "dnsseed.safeminecoin.org",true));
+	vSeeds.push_back(CDNSSeedData("dnsseed.derogold.link", "dnsseed.derogold.link",true));   
+	vSeeds.push_back(CDNSSeedData("158.69.130.185", "158.69.130.185",true));
 	vSeeds.push_back(CDNSSeedData("5.135.21.189", "5.135.21.189",true));
         vSeeds.push_back(CDNSSeedData("178.32.173.234", "178.32.173.234",true));
 
