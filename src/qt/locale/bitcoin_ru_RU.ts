@@ -241,7 +241,7 @@
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>SafeMineCoin-core</translation>
+        <translation>Одноранговые узлы из белого списка не могут быть заблокированы DoS, и их транзакции всегда ретранслируются, даже если они уже находятся в мемпуле, что полезно, например, для шлюза</translation>
     </message>
     <message>
         <source>Information</source>
@@ -253,7 +253,7 @@
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</translation>
+        <translation>Не держите транзакции в мемпуле более, чем &lt;n&gt; hours (default: %u)</translation>
     </message>
     <message>
         <source>Error</source>
