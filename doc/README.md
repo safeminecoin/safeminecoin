@@ -15,8 +15,8 @@ The following are some helpful notes on how to run SafeMineCoin on your native p
 
 Unpack the files into a directory and run:
 
-- /usr/local/bin/SafeMineCoin-qt` (GUI) or
-- /usr/local/bin/SafeMineCoind` (headless)
+- /usr/local/bin/SafeMineCoin-qt (GUI) or
+- /usr/local/bin/SafeMineCoind (headless)
 
 ### Windows
 
@@ -31,7 +31,6 @@ Drag SafeMineCoin-More to your applications folder, and then run SafeMineCoin-Mo
 * See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
 * Ask for help on [#SafeMineCoin](https://discord.gg/zmGr38eJYE) on Freenode.
-* Ask for help in [SafeMineCoin room](https://gitter.im/SafeMineCoin_Hub) on Gitter.
 * Ask for help in [/r/SafeMineCoin/](https://nm.reddit.com/r/safeminecoin/) on Reddit.
 * Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [SafeMineCoin topic](https://bitcointalk.org/index.php?topic=5378794.msg58833379#msg58833379).
 
