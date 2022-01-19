@@ -15,8 +15,8 @@ The following are some helpful notes on how to run SafeMineCoin on your native p
 
 Unpack the files into a directory and run:
 
-- `bin/SafeMineCoin-qt` (GUI) or
-- `bin/SafeMineCoind` (headless)
+- /usr/local/bin/SafeMineCoin-qt` (GUI) or
+- /usr/local/bin/SafeMineCoind` (headless)
 
 ### Windows
 
@@ -30,10 +30,10 @@ Drag SafeMineCoin-More to your applications folder, and then run SafeMineCoin-Mo
 
 * See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
-* Ask for help on [#SafeMineCoin](http://webchat.freenode.net?channels=SafeMineCoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=SafeMineCoin).
+* Ask for help on [#SafeMineCoin](https://discord.gg/zmGr38eJYE) on Freenode.
 * Ask for help in [SafeMineCoin room](https://gitter.im/SafeMineCoin_Hub) on Gitter.
-* Ask for help in [/r/SafeMineCoin/](https://nm.reddit.com/r/SafeMineCoin/) on Reddit.
-* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [SafeMineCoin topic](https://bitcointalk.org/index.php?topic=3017838.new#new).
+* Ask for help in [/r/SafeMineCoin/](https://nm.reddit.com/r/safeminecoin/) on Reddit.
+* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [SafeMineCoin topic](https://bitcointalk.org/index.php?topic=5378794.msg58833379#msg58833379).
 
 Building
 ---------------------
@@ -53,7 +53,6 @@ The SafeMineCoin repo's [root README](/README.md) contains relevant information 
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/bitcoin/doxygen/)
 - [Translation Process](translation_process.md)
 - [Translation Strings Policy](translation_strings_policy.md)
 - [Unit Tests](unit-tests.md)
@@ -64,9 +63,9 @@ The SafeMineCoin repo's [root README](/README.md) contains relevant information 
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [SafeMineCoin topic](https://bitcointalk.org/index.php?topic=3017838.new#new).
-* Discuss SafeMineCoin development in [SafeMineCoin room](https://gitter.im/SafeMineCoin_Hub) on Gitter.
-* Discuss SafeMineCoin development in [SafeMineCoin team](https://keybase.io/team/SafeMineCoin) on Keybase.
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [SafeMineCoin topic](https://bitcointalk.org/index.php?topic=5378794.msg58833379#msg58833379).
+* Discuss SafeMineCoin development in [SafeMineCoin room](https://github.com/safeminecoin/safeminecoin) on Github.
+* Discuss SafeMineCoin development in [SafeMineCoin team](https://discord.gg/zmGr38eJYE) on Discord.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
