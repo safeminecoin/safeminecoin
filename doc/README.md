@@ -5,7 +5,7 @@ Setup
 ---------------------
 SafeMineCoin is experimental SafeMineCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of SafeMineCoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download SafeMineCoin, visit [SafeMineCoinmore.org](https://SafeMineCoinmore.org).
+To download SafeMineCoin, visit [safeminecoin.org](https://safeminecoin.org).
 
 Running
 ---------------------
