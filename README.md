@@ -1,4 +1,4 @@
-### Welcome to Safe Mine 👋
+### Welcome to Safe Mine Coin 👋
 
 <!--
 **safeminecoin/safeminecoin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
