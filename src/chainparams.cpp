@@ -98,7 +98,7 @@ public:
         consensus.nProtocolV1RetargetingFixedTime = 1639822305;
         consensus.nProtocolV2Time = 1639822306;
         consensus.nProtocolV3Time = 1639822307;
-        consensus.nLastPOWBlock = 1000000;
+        consensus.nLastPOWBlock = 2000000;
         consensus.nStakeTimestampMask = 0xf;
         consensus.nCoinbaseMaturity = 20;
         consensus.nStakeMinAge = 12 * 60 * 60;
@@ -147,6 +147,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xb1aaa2e7d1bc5b982c83b94787057b2e7394062097e07944d55b51d23549a452")); //0xf0701c31be26a51c1c8d1bc857c4b49a5d54349ad912b42102ca2c0a164d1513"));
 
         vSeeds.push_back(CDNSSeedData("dnsseed.safeminecoin.org", "dnsseed.safeminecoin.org",true));
+	vSeeds.push_back(CDNSSeedData("dnsseed.safeminecoin.xyz", "dnsseed.safeminecoin.xyz",true)); 
 	vSeeds.push_back(CDNSSeedData("dnsseed.derogold.link", "dnsseed.derogold.link",true));   
 	vSeeds.push_back(CDNSSeedData("158.69.130.185", "158.69.130.185",true));
 	vSeeds.push_back(CDNSSeedData("5.135.21.189", "5.135.21.189",true));
