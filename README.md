@@ -1,7 +1,15 @@
-### Welcome to Safe Mine Coin 👋
+### The MIT License (MIT)
+
+* Copyright (c) 2022 The MbroProject Developers
+* Copyright (c) 2021-2022 The SafeMineCoin Developers
+* Copyright (c) 2018-2022 The Blackcoin More Developers
+* Copyright (c) 2014-2018 The BlackCoin Developers
+* Copyright (c) 2013-2014 The NovaCoin Developers
+* Copyright (c) 2011-2013 The PPCoin Developers
+* Copyright (c) 2009-2016 The Bitcoin Core developers
 
 <!--
-**safeminecoin/safeminecoin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Fast. Simple. Secure. The Global Crypto Payment** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -14,29 +22,24 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-The SafeMineCoin is a hybrid PoW/PoS based cryptocurrency
+#### MBROCOIN - Fast. Simple. Secure. The Global Crypto Payment
 
 ### Coin Specification
-* Algorithm: Scrypt Proof of Work and Proof of Stake, Masternode (soon)
-* Coin Name    Safeminecoin
-* Coin Ticker  SMCN
-* Public Address  S
+* Algorithm: Scrypt Proof of Work (POW) and Proof of Stake (POS)
+* Coin Name    Mbrocoin
+* Coin Ticker  MBRO
+* Public Address  M
 * Testnet Address T
-* RPC port	25251
-* P2P port	25252
+* RPC port	14141
+* P2P port	14142
 * Coinbase maturity (default 21 confirmation) blocks
 * Transaction (default 6 confirmation) blocks
 * * Block Rewards
-	* PoW   100 SMCN per block (for last POW 2.000.000 blocks)
-	* PoS   20 SMCN per block
+	* PoW   50 SMCN per block (for last POW 500.000 blocks)
+	* PoS   5 SMCN per block
 	  *  Min. stake age   12 hours
 	  *  Max. stake age   Unlimited
-	* Premine  100000 coins
-	* Masternodes (soon)
+	* Premine and Developments 5.000.000 coins
 * Target spacing    2 minutes
 * Target timespan   10 minutes
- 
-#### [Linux Build Instructions](https://github.com/safeminecoin/safeminecoin/wiki/How-To#build-safeminecoin) Other guides refer to [Doc](https://github.com/safeminecoin/safeminecoin/tree/master/doc) and [Wiki](https://github.com/safeminecoin/safeminecoin/wiki) 
-
-#### Visit our Website [safeminecoin.org](http://safeminecoin.org/) Join us on [Telegram](https://t.me/safeminecoin) and [Discord](https://discord.gg/zmGr38eJYE) or find us on [Twitter](https://twitter.com/safeminecoin) and [facebook](https://www.facebook.com/profile.php?id=100076115306177)
 
