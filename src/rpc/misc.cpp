@@ -341,10 +341,10 @@ UniValue verifymessage(const UniValue& params, bool fHelp)
 {
     if (fHelp || params.size() != 3)
         throw runtime_error(
-            "verifymessage \"SafeMineCoinaddress\" \"signature\" \"message\"\n"
+            "verifymessage \"mbrocoinaddress\" \"signature\" \"message\"\n"
             "\nVerify a signed message\n"
             "\nArguments:\n"
-            "1. \"SafeMineCoinaddress\"  (string, required) The SafeMineCoin address to use for the signature.\n"
+            "1. \"mbrocoinaddress\"  (string, required) The mbrocoin address to use for the signature.\n"
             "2. \"signature\"       (string, required) The signature provided by the signer in base 64 encoding (see signmessage).\n"
             "3. \"message\"         (string, required) The message that was signed.\n"
             "\nResult:\n"

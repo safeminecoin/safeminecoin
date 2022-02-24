@@ -159,7 +159,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Pošalji novčiće na SafeMineCoin adresu</translation>
+        <translation>Pošalji novčiće na mbrocoin adresu</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -407,7 +407,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Information</source>

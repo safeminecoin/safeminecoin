@@ -39,7 +39,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Wallet</source>

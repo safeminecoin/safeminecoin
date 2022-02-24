@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina SafeMineCoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar SafeMineCoins.</translation>
+        <translation>Detta är dina mbrocoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar mbrocoins.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina SafeMineCoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <translation>Detta är dina mbrocoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -340,7 +340,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Skicka SafeMineCoins till en SafeMineCoin-adress</translation>
+        <translation>Skicka mbrocoins till en mbrocoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -364,7 +364,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -392,11 +392,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din SafeMineCoin-adress för att bevisa att du äger dem</translation>
+        <translation>Signera meddelanden med din mbrocoin-adress för att bevisa att du äger dem</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade SafeMineCoin-adresser</translation>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade mbrocoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -416,7 +416,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Begär betalning (genererar QR-koder och SafeMineCoin-URI)</translation>
+        <translation>Begär betalning (genererar QR-koder och mbrocoin-URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -428,7 +428,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Öppna en SafeMineCoin: URI eller betalningsbegäran</translation>
+        <translation>Öppna en mbrocoin: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -436,7 +436,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till SafeMineCoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till SafeMineCoin-nätverket.</numerusform></translation>
+        <translation><numerusform>%n aktiva anslutningar till mbrocoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till mbrocoin-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -480,7 +480,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga SafeMineCoin kommandoradsalternativ.</translation>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga mbrocoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -542,7 +542,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ett kritiskt fel uppstod. SafeMineCoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
+        <translation>Ett kritiskt fel uppstod. mbrocoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -765,7 +765,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 kommer att ladda ner och spara en kopia av SafeMineCoin blockkedjan. Åtminstone %2GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
+        <translation>%1 kommer att ladda ner och spara en kopia av mbrocoin blockkedjan. Åtminstone %2GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -942,7 +942,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt SafeMineCoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <translation>Öppna automatiskt mbrocoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -950,7 +950,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till SafeMineCoin-nätverket genom en SOCKS5-proxy.</translation>
+        <translation>Anslut till mbrocoin-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -990,7 +990,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Anslut till SafeMineCoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
+        <translation>Anslut till mbrocoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1089,7 +1089,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med SafeMineCoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med mbrocoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1194,7 +1194,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Ange en SafeMineCoin-adress (t.ex. %1)</translation>
+        <translation>Ange en mbrocoin-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1566,7 +1566,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över SafeMineCoinnätverket.</translation>
+        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över mbrocoinnätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1775,7 +1775,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på SafeMineCoin transaktioner än nätverket kan bearbeta.</translation>
+        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på mbrocoin transaktioner än nätverket kan bearbeta.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1878,7 +1878,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>SafeMineCoinadress att sända betalning till</translation>
+        <translation>mbrocoinadress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1898,7 +1898,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att få mindre SafeMineCoins än du angivit i belopp-fältet. Om flera mottagare valts kommer avgiften delas jämt.</translation>
+        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att få mindre mbrocoins än du angivit i belopp-fältet. Om flera mottagare valts kommer avgiften delas jämt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1922,7 +1922,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Ett meddelande som bifogades SafeMineCoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över SafeMineCoinnätverket.</translation>
+        <translation>Ett meddelande som bifogades mbrocoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över mbrocoinnätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1963,11 +1963,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan underteckna meddelanden/avtal med dina adresser för att bevisa att du kan ta emot SafeMineCoins som skickats till dem. Var försiktig så du inte undertecknar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att underteckna din identitet till dem. Underteckna endast väldetaljerade meddelanden som du godkänner.</translation>
+        <translation>Du kan underteckna meddelanden/avtal med dina adresser för att bevisa att du kan ta emot mbrocoins som skickats till dem. Var försiktig så du inte undertecknar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att underteckna din identitet till dem. Underteckna endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>SafeMineCoinadress att signera meddelandet med</translation>
+        <translation>mbrocoinadress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2023,11 +2023,11 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>SafeMineCoinadressen som meddelandet signerades med</translation>
+        <translation>mbrocoinadressen som meddelandet signerades med</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna SafeMineCoin-adressen</translation>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna mbrocoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2228,7 +2228,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -2940,7 +2940,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med SafeMineCoins</translation>
+        <translation>Otillräckligt med mbrocoins</translation>
     </message>
     <message>
         <source>Loading block index...</source>

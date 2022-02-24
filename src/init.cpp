@@ -500,7 +500,7 @@ std::string LicenseInfo()
            "\n" +
            FormatParagraph(strprintf("Copyright (C) %i-%i The Blackcoin More Developers", 2018, COPYRIGHT_YEAR)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf("Copyright (C) %i The Safeminecoin Developers", 2021)) + "\n" +
+           FormatParagraph(strprintf("Copyright (C) %i The SafeMineCoin Developers", 2021)) + "\n" +
            "\n" +
            FormatParagraph(strprintf("Copyright (C) %i The Mbrocoin Developers", 2022)) + "\n" +
            "\n" +

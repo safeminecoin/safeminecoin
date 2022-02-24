@@ -3,10 +3,10 @@
 usage="Usage: blk [ info | stake | latest | dust ] \n \n
 	info: Check basic info. \n
 	stake: Enables staking; Passes password without storing it in memory. \n
-	latest: Compares latest block with the SafeMineCoinNL hosted block explorer. \n
+	latest: Compares latest block with the mbrocoinNL hosted block explorer. \n
 	dust: Prunes dust from wallet. Dust is defined as less than .0001BLK. Requires jq. \n"
 
-blkc='/usr/local/bin/SafeMineCoin-cli -datadir=/var/lib/.SafeMineCoin/'
+blkc='/usr/local/bin/mbrocoin-cli -datadir=/var/lib/.mbrocoin/'
 
 case $1 in
 
@@ -19,7 +19,7 @@ info )
 ;;	
 
 stake )
-	echo 'enter SafeMineCoin Password'
+	echo 'enter mbrocoin Password'
 	read -s BLKPW
 	$blkc walletpassphrase $BLKPW 99999999 true
 	BLKPW=null
@@ -27,19 +27,19 @@ stake )
 
 latest )
 	latest=$($blkc  getblockcount) && \
-	    blacksight=$(curl -s https://node.SafeMineCoin.io/insight-api/block-index/$latest? |  cut -d '"' -f4) && \
-	    SafeMineCoin=$($blkc  getblockhash $latest) && \
-	    diff -sy --label Local <(echo $SafeMineCoin) --label Explorer <(echo $blacksight)
+	    blacksight=$(curl -s https://node.mbrocoin.io/insight-api/block-index/$latest? |  cut -d '"' -f4) && \
+	    mbrocoin=$($blkc  getblockhash $latest) && \
+	    diff -sy --label Local <(echo $mbrocoin) --label Explorer <(echo $blacksight)
 ;;
 
 dust )
 	IFS=$'\n';
 
-	 /usr/local/bin/SafeMineCoin-cli -datadir=/var/lib/.SafeMineCoin/ listtransactions "*" 99999 | jq -r '.[] | select(.category != "send") | select(.amount < .0001) | .txid' | uniq >txid.txt
+	 /usr/local/bin/mbrocoin-cli -datadir=/var/lib/.mbrocoin/ listtransactions "*" 99999 | jq -r '.[] | select(.category != "send") | select(.amount < .0001) | .txid' | uniq >txid.txt
 
 	while read line; do
 	        echo $line 
-	        /usr/local/bin/SafeMineCoin-cli -datadir=/var/lib/.SafeMineCoin/ removeprunedfunds $(echo $line)
+	        /usr/local/bin/mbrocoin-cli -datadir=/var/lib/.mbrocoin/ removeprunedfunds $(echo $line)
 	done < "txid.txt"
 ;;
 

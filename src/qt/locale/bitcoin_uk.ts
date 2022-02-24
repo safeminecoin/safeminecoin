@@ -235,7 +235,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -263,11 +263,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою SafeMineCoin-адресою </translation>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою mbrocoin-адресою </translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною SafeMineCoin-адресою</translation>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною mbrocoin-адресою</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -287,7 +287,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Створити запит платежу (генерує QR-код та SafeMineCoin: URI)</translation>
+        <translation>Створити запит платежу (генерує QR-код та mbrocoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -299,7 +299,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Відкрити SafeMineCoin: URI чи запит платежу</translation>
+        <translation>Відкрити mbrocoin: URI чи запит платежу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -307,7 +307,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n активне з'єднання з мережею SafeMineCoin</numerusform><numerusform>%n активні з'єднання з мережею SafeMineCoin</numerusform><numerusform>%n активних з'єднань з мережею SafeMineCoin</numerusform></translation>
+        <translation><numerusform>%n активне з'єднання з мережею mbrocoin</numerusform><numerusform>%n активні з'єднання з мережею mbrocoin</numerusform><numerusform>%n активних з'єднань з мережею mbrocoin</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -721,7 +721,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Підключення до мережі SafeMineCoin через SOCKS5 проксі.</translation>
+        <translation>Підключення до мережі mbrocoin через SOCKS5 проксі.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -761,7 +761,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Підключатися до мережі SafeMineCoin через окремий SOCKS5 проксі для прихованих сервісів Tor.</translation>
+        <translation>Підключатися до мережі mbrocoin через окремий SOCKS5 проксі для прихованих сервісів Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -848,7 +848,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею SafeMineCoin після встановлення підключення, але цей процес ще не завершено.</translation>
+        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею mbrocoin після встановлення підключення, але цей процес ще не завершено.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -937,7 +937,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Введіть адресу SafeMineCoin (наприклад %1)</translation>
+        <translation>Введіть адресу mbrocoin (наприклад %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1261,7 +1261,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу SafeMineCoin.</translation>
+        <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу mbrocoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1426,7 +1426,7 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Оплата тільки мінімальної комісії є прийнятною, допоки обсяг транзакцій є меншим простору в блоках. Але майте на увазі, що це може анулювати транзакцію, якщо попит на SafeMineCoin транзакції стане більшим, ніж мережа зможе обробити.</translation>
+        <translation>Оплата тільки мінімальної комісії є прийнятною, допоки обсяг транзакцій є меншим простору в блоках. Але майте на увазі, що це може анулювати транзакцію, якщо попит на mbrocoin транзакції стане більшим, ніж мережа зможе обробити.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1513,7 +1513,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>Адреса SafeMineCoin для відправлення платежу</translation>
+        <translation>Адреса mbrocoin для відправлення платежу</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1557,7 +1557,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Повідомлення, що було додане до SafeMineCoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу SafeMineCoin.</translation>
+        <translation>Повідомлення, що було додане до mbrocoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу mbrocoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1594,7 +1594,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>Адреса SafeMineCoin для підпису цього повідомлення</translation>
+        <translation>Адреса mbrocoin для підпису цього повідомлення</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1650,11 +1650,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>Адреса SafeMineCoin, якою було підписано це повідомлення</translation>
+        <translation>Адреса mbrocoin, якою було підписано це повідомлення</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною SafeMineCoin-адресою</translation>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною mbrocoin-адресою</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1791,7 +1791,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

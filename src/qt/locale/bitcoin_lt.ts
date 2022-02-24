@@ -155,7 +155,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Siųsti monetas SafeMineCoin adresui</translation>
+        <translation>Siųsti monetas mbrocoin adresui</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -179,7 +179,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti SafeMineCoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <translation>Automatiškai atidaryti mbrocoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -864,7 +864,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas SafeMineCoin adresas</translation>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas mbrocoin adresas</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -937,7 +937,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Error opening block database</source>

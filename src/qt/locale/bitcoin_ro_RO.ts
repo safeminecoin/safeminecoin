@@ -155,7 +155,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Trimite monede către o adresă SafeMineCoin</translation>
+        <translation>Trimite monede către o adresă mbrocoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -179,7 +179,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -207,11 +207,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Semnaţi mesaje cu adresa dvs. SafeMineCoin pentru a dovedi că vă aparţin</translation>
+        <translation>Semnaţi mesaje cu adresa dvs. mbrocoin pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa SafeMineCoin specificată</translation>
+        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa mbrocoin specificată</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Cereţi plăţi (generează coduri QR şi SafeMineCoin-uri: URls)</translation>
+        <translation>Cereţi plăţi (generează coduri QR şi mbrocoin-uri: URls)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Deschidere SafeMineCoin: o adresa URI sau o cerere de plată</translation>
+        <translation>Deschidere mbrocoin: o adresa URI sau o cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -251,7 +251,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n conexiune activă către reţeaua SafeMineCoin</numerusform><numerusform>%n conexiuni active către reţeaua SafeMineCoin</numerusform><numerusform>%n de conexiuni active către reţeaua SafeMineCoin</numerusform></translation>
+        <translation><numerusform>%n conexiune activă către reţeaua mbrocoin</numerusform><numerusform>%n conexiuni active către reţeaua mbrocoin</numerusform><numerusform>%n de conexiuni active către reţeaua mbrocoin</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -657,7 +657,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului SafeMineCoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+        <translation>Deschide automat în router portul aferent clientului mbrocoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -665,7 +665,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectare la reţeaua SafeMineCoin printr-un proxy SOCKS.</translation>
+        <translation>Conectare la reţeaua mbrocoin printr-un proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -725,7 +725,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de SafeMineCoin.</translation>
+        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de mbrocoin.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -765,7 +765,7 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa SafeMineCoin pe care aţi specificat-o nu este validă.</translation>
+        <translation>Adresa mbrocoin pe care aţi specificat-o nu este validă.</translation>
     </message>
 </context>
 <context>
@@ -776,7 +776,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua SafeMineCoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua mbrocoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -865,7 +865,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Introduceţi o adresă SafeMineCoin (de exemplu %1)</translation>
+        <translation>Introduceţi o adresă mbrocoin (de exemplu %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1165,7 +1165,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua SafeMineCoin.</translation>
+        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua mbrocoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1385,7 +1385,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>Adresa SafeMineCoin către care se face plata</translation>
+        <translation>Adresa mbrocoin către care se face plata</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1413,7 +1413,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>un mesaj a fost ataşat la SafeMineCoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua SafeMineCoin.</translation>
+        <translation>un mesaj a fost ataşat la mbrocoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua mbrocoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1482,7 +1482,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă SafeMineCoin</translation>
+        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă mbrocoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1502,11 +1502,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>Introduceţi o adresă SafeMineCoin</translation>
+        <translation>Introduceţi o adresă mbrocoin</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa SafeMineCoin specificată</translation>
+        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa mbrocoin specificată</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1595,7 +1595,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

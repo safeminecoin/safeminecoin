@@ -34,9 +34,9 @@ BOOST_AUTO_TEST_CASE(test_addresses) {
     const CTxDestination dstScript = CScriptID(uint160(hash));
 
     std::string cashaddr_pubkey =
-        "SafeMineCoin:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a";
+        "mbrocoin:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a";
     std::string cashaddr_script =
-        "SafeMineCoin:ppm2qsznhks23z7629mms6s4cwef74vcwvn0h829pq";
+        "mbrocoin:ppm2qsznhks23z7629mms6s4cwef74vcwvn0h829pq";
     std::string base58_pubkey = "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu";
     std::string base58_script = "3CWFddi6m4ndiGyKqzYvsFYagqDLPVMTzC";
 

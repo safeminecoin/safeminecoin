@@ -18,7 +18,7 @@
 ## v2.13.2.6 (2020-07-21)
 - Fix staking memory leak (by JJ12880 from Radium Core)
 - Updated fixed seeds
-- Added secondary SafeMineCoin DNS seeder
+- Added secondary mbrocoin DNS seeder
 
 ## v2.13.2.5 (2020-04-28)
 - Updated Berkeley DB to 6.2.38
@@ -67,7 +67,7 @@
 
 ## v2.12.1.1 (2018-10-01)
 
-- Rebranded to SafeMineCoin
+- Rebranded to mbrocoin
 - Some small fixes and updates from Bitcoin Core 0.13.x branch
 - Added use available balance button in send coins dialog (backport of Core's PR11316)
 - Added a button to open the config file in a text editor (backport of Core's PR9890)

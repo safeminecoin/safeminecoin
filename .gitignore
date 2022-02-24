@@ -1,12 +1,12 @@
 *.tar.gz
 
 *.exe
-src/SafeMineCoin
-src/SafeMineCoind
-src/SafeMineCoin-cli
-src/SafeMineCoin-tx
-src/test/test_SafeMineCoin
-src/qt/test/test_SafeMineCoin-qt
+src/mbrocoin
+src/mbrocoind
+src/mbrocoin-cli
+src/mbrocoin-tx
+src/test/test_mbrocoin
+src/qt/test/test_mbrocoin-qt
 
 # autoreconf
 Makefile.in
@@ -45,11 +45,11 @@ src/qt/forms/ui_*.h
 
 src/qt/test/moc*.cpp
 
-src/qt/SafeMineCoin-qt.config
-src/qt/SafeMineCoin-qt.creator
-src/qt/SafeMineCoin-qt.creator.user
-src/qt/SafeMineCoin-qt.files
-src/qt/SafeMineCoin-qt.includes
+src/qt/mbrocoin-qt.config
+src/qt/mbrocoin-qt.creator
+src/qt/mbrocoin-qt.creator.user
+src/qt/mbrocoin-qt.files
+src/qt/mbrocoin-qt.includes
 
 .deps
 .dirstamp
@@ -86,8 +86,8 @@ src/qt/SafeMineCoin-qt.includes
 *.qm
 Makefile
 !depends/Makefile
-src/qt/SafeMineCoin-qt
-SafeMineCoin-Qt.app
+src/qt/mbrocoin-qt
+mbrocoin-Qt.app
 background.tiff*
 
 # Qt Creator
@@ -95,7 +95,7 @@ Makefile.am.user
 
 # Unit-tests
 Makefile.test
-SafeMineCoin-qt_test
+mbrocoin-qt_test
 src/test/buildenv.py
 
 # Resources cpp

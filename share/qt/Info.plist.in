@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>SafeMineCoin-Qt</string>
+  <string>mbrocoin-Qt</string>
   
   <key>CFBundleName</key>
-  <string>SafeMineCoin-Qt</string>
+  <string>mbrocoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.SafeMineCoin.SafeMineCoin-Qt</string>
+  <string>org.mbrocoin.mbrocoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

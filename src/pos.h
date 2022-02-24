@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018 The SafeMineCoin Developers
+// Copyright (c) 2014-2018 The mbrocoin Developers
 // Copyright (c) 2011-2013 The PPCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -6,8 +6,8 @@
 // Stake cache by Qtum
 // Copyright (c) 2016-2018 The Qtum developers
 
-#ifndef SafeMineCoin_POS_H
-#define SafeMineCoin_POS_H
+#ifndef mbrocoin_POS_H
+#define mbrocoin_POS_H
 
 #include "pos.h"
 #include "txdb.h"
@@ -41,4 +41,4 @@ bool CheckStakeKernelHash(const CBlockIndex* pindexPrev, unsigned int nBits, con
 bool CheckProofOfStake(CBlockIndex* pindexPrev, const CTransaction& tx, unsigned int nBits, CValidationState &state);
 void CacheKernel(std::map<COutPoint, CStakeCache>& cache, const COutPoint& prevout, CBlockIndex* pindexPrev);
 bool VerifySignature(const CTransaction& txFrom, const CTransaction& txTo, unsigned int nIn, unsigned int flags, int nHashType);
-#endif // SafeMineCoin_POS_H
+#endif // mbrocoin_POS_H

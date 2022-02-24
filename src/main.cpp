@@ -67,7 +67,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "SafeMineCoin cannot be compiled without assertions."
+# error "mbrocoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -131,7 +131,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "SafeMineCoin Signed Message:\n";
+const string strMessageMagic = "mbrocoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -2507,9 +2507,9 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
 
     // BIP66 is always active
     flags |= SCRIPT_VERIFY_DERSIG;
-    // SafeMineCoin also requires DER encoding of pubkeys
+    // mbrocoin also requires DER encoding of pubkeys
     flags |= SCRIPT_VERIFY_DERKEY;
-    // SafeMineCoin also requires low S in sigs
+    // mbrocoin also requires low S in sigs
     flags |= SCRIPT_VERIFY_LOW_S;
 
     // Start enforcing CHECKLOCKTIMEVERIFY, (BIP65) since protocol v3

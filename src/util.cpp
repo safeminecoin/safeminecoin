@@ -98,8 +98,8 @@ const int64_t nStartupTime = GetTime();
 
 using namespace std;
 
-const char * const BITCOIN_CONF_FILENAME = "SafeMineCoin.conf";
-const char * const BITCOIN_PID_FILENAME = "SafeMineCoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "mbrocoin.conf";
+const char * const BITCOIN_PID_FILENAME = "mbrocoind.pid";
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
@@ -434,7 +434,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "SafeMineCoin";
+    const char* pszModule = "mbrocoin";
 #endif
     if (pex)
         return strprintf(
@@ -454,13 +454,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\SafeMineCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\SafeMineCoin
-    // Mac: ~/Library/Application Support/SafeMineCoin
-    // Unix: ~/.SafeMineCoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\mbrocoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\mbrocoin
+    // Mac: ~/Library/Application Support/mbrocoin
+    // Unix: ~/.mbrocoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "SafeMineCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "mbrocoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -470,10 +470,10 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/SafeMineCoin";
+    return pathRet / "Library/Application Support/mbrocoin";
 #else
     // Unix
-    return pathRet / ".SafeMineCoin";
+    return pathRet / ".mbrocoin";
 #endif
 #endif
 }
@@ -817,7 +817,7 @@ std::string CopyrightHolders(const std::string& strPrefix)
         strPrefix + "The Bitcoin Core developers" +
         "\n" + strPrefix + "The Blackcoin developers" +
         "\n" + strPrefix + "The Blackcoin More developers";
-        "\n" + strPrefix + "SafeMineCoin developers";
+        "\n" + strPrefix + "mbrocoin developers";
 
     return strCopyrightHolders;
 }

@@ -19,13 +19,13 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "SafeMineCoin"
-            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for SafeMineCoin)"
+            VALUE "CompanyName",        "mbrocoin"
+            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for mbrocoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "SafeMineCoin-qt"
+            VALUE "InternalName",       "mbrocoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "SafeMineCoin-qt.exe"
+            VALUE "OriginalFilename",   "mbrocoin-qt.exe"
             VALUE "ProductName",        PACKAGE_NAME
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

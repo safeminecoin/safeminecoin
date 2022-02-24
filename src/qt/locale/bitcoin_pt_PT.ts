@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: se encriptar a sua carteira e perder a sua frase de segurnça, &lt;b&gt;PERDERÁ TODOS OS SEUS SafeMineCoinS&lt;/b&gt;!</translation>
+        <translation>Aviso: se encriptar a sua carteira e perder a sua frase de segurnça, &lt;b&gt;PERDERÁ TODOS OS SEUS mbrocoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -311,7 +311,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar moedas para um endereço SafeMineCoin</translation>
+        <translation>Enviar moedas para um endereço mbrocoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -363,11 +363,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Assine as mensagens com os seus endereços SafeMineCoin para provar que é o proprietário dos mesmos</translation>
+        <translation>Assine as mensagens com os seus endereços mbrocoin para provar que é o proprietário dos mesmos</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço SafeMineCoin especificado</translation>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço mbrocoin especificado</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e SafeMineCoin: URIs)</translation>
+        <translation>Solicitar pagamentos (gera códigos QR e mbrocoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -399,7 +399,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir URI SafeMineCoin: ou pedido de pagamento</translation>
+        <translation>Abrir URI mbrocoin: ou pedido de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -407,7 +407,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n ligação ativa à rede SafeMineCoin</numerusform><numerusform>%n ligações ativas à rede SafeMineCoin</numerusform></translation>
+        <translation><numerusform>%n ligação ativa à rede mbrocoin</numerusform><numerusform>%n ligações ativas à rede mbrocoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -954,7 +954,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente SafeMineCoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <translation>Abrir a porta do cliente mbrocoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -962,7 +962,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede da SafeMineCoin através dum proxy SOCLS5.</translation>
+        <translation>Conectar à rede da mbrocoin através dum proxy SOCLS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1002,7 +1002,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Ligar à rede SafeMineCoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
+        <translation>Ligar à rede mbrocoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1097,7 +1097,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede SafeMineCoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede mbrocoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1214,7 +1214,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Entre um endereço SafeMineCoin (ex. %1)</translation>
+        <translation>Entre um endereço mbrocoin (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1550,7 +1550,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede SafeMineCoin.</translation>
+        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede mbrocoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1870,7 +1870,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>O endereço SafeMineCoin para enviar o pagamento</translation>
+        <translation>O endereço mbrocoin para enviar o pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1890,7 +1890,7 @@
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>A taxa será deduzida ao montante enviado. O destinatário irá receber menos SafeMineCoins do que as que introduziu no campo montante. Caso sejam seleccionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
+        <translation>A taxa será deduzida ao montante enviado. O destinatário irá receber menos mbrocoins do que as que introduziu no campo montante. Caso sejam seleccionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1914,7 +1914,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI SafeMineCoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede SafeMineCoin.</translation>
+        <translation>Uma mensagem que estava anexada ao URI mbrocoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede mbrocoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1955,7 +1955,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>O endereço SafeMineCoin para designar a mensagem</translation>
+        <translation>O endereço mbrocoin para designar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1987,7 +1987,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço SafeMineCoin</translation>
+        <translation>Assine uma mensagem para provar que é dono deste endereço mbrocoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2011,11 +2011,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>O endereço SafeMineCoin com que a mensagem foi designada</translation>
+        <translation>O endereço mbrocoin com que a mensagem foi designada</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço SafeMineCoin especificado</translation>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço mbrocoin especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2184,7 +2184,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>SafeMineCoin</translation>
+        <translation>mbrocoin</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>

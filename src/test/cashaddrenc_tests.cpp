@@ -291,12 +291,12 @@ BOOST_AUTO_TEST_CASE(test_addresses)
         {203, 72, 18, 50, 41, 156, 213, 116, 49, 81, 172, 75, 45, 99, 174, 25, 142, 123, 176, 169},
         {1, 31, 40, 228, 115, 201, 95, 64, 19, 215, 213, 62, 197, 251, 195, 180, 45, 248, 237, 16}};
 
-    std::vector<std::string> pubkey = {"SafeMineCoin:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
-        "SafeMineCoin:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy",
-        "SafeMineCoin:qqq3728yw0y47sqn6l2na30mcw6zm78dzqre909m2r"};
-    std::vector<std::string> script = {"SafeMineCoin:ppm2qsznhks23z7629mms6s4cwef74vcwvn0h829pq",
-        "SafeMineCoin:pr95sy3j9xwd2ap32xkykttr4cvcu7as4yc93ky28e",
-        "SafeMineCoin:pqq3728yw0y47sqn6l2na30mcw6zm78dzq5ucqzc37"};
+    std::vector<std::string> pubkey = {"mbrocoin:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+        "mbrocoin:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy",
+        "mbrocoin:qqq3728yw0y47sqn6l2na30mcw6zm78dzqre909m2r"};
+    std::vector<std::string> script = {"mbrocoin:ppm2qsznhks23z7629mms6s4cwef74vcwvn0h829pq",
+        "mbrocoin:pr95sy3j9xwd2ap32xkykttr4cvcu7as4yc93ky28e",
+        "mbrocoin:pqq3728yw0y47sqn6l2na30mcw6zm78dzq5ucqzc37"};
 
     for (size_t i = 0; i < hash.size(); ++i)
     {

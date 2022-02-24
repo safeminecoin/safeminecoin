@@ -48,7 +48,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QString copyrightTextBitcoin     = QChar(0xA9)+QString(" %1-%2 ").arg(2009).arg(COPYRIGHT_YEAR) + QString("The Bitcoin Core developers");
     QString copyrightTextBlackcoin   = QChar(0xA9)+QString(" %1-%2 ").arg(2014).arg(2018) + QString("The Blackcoin developers");
     QString copyrightTextBlackmore   = QChar(0xA9)+QString(" %1-%2 ").arg(2018).arg(COPYRIGHT_YEAR) + QString("The Blackcoin More developers");
-    QString copyrightTextSafeMineCoin   = QChar(0xA9)+QString(" %1 ").arg(2021) + QString("The SafeMineCoin developers");
+    QString copyrightTextmbrocoin   = QChar(0xA9)+QString(" %1 ").arg(2021) + QString("The mbrocoin developers");
     // QString copyrightText   = QChar(0xA9)+QString(" %1-%2 ").arg(2009).arg(COPYRIGHT_YEAR) + QString::fromStdString(CopyrightHolders());
 
     QString titleAddText    = networkStyle->getTitleAddText();
@@ -114,7 +114,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
         pixPaint.drawText(x,y,copyrightTextBitcoin);
         pixPaint.drawText(x,y+10,copyrightTextBlackcoin);
         pixPaint.drawText(x,y+20,copyrightTextBlackmore);
-        pixPaint.drawText(x,y+30,copyrightTextSafeMineCoin);
+        pixPaint.drawText(x,y+30,copyrightTextmbrocoin);
     }
 
     // draw additional text if special network

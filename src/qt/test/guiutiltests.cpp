@@ -49,7 +49,7 @@ void GUIUtilTests::toCurrentEncodingTest() {
     QVERIFY(ToCurrentEncoding("garbage", config) == "garbage");
 
     QString cashaddr_pubkey =
-        "SafeMineCoin:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a";
+        "mbrocoin:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a";
     QString base58_pubkey = "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu";
 
     config.SetCashAddrEncoding(true);

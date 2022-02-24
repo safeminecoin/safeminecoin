@@ -1,7 +1,7 @@
 Dependencies
 ============
 
-These are the dependencies currently used by SafeMineCoin. You can find instructions for installing them in the `build-*.md` file for your platform.
+These are the dependencies currently used by mbrocoin. You can find instructions for installing them in the `build-*.md` file for your platform.
 
 | Dependency | Version used | Minimum required | CVEs | Shared | [Bundled Qt library](https://doc.qt.io/qt-5/configure-options.html#third-party-libraries) |
 | --- | --- | --- | --- | --- | --- |
@@ -32,6 +32,6 @@ These are the dependencies currently used by SafeMineCoin. You can find instruct
 Human help is also available from the following channels:
 
 Discord  - https://discord.gg/hjNUgWD
-Telegram - https://t.me/SafeMineCoinnl
-Keybase  - https://keybase.io/team/SafeMineCoin/
+Telegram - https://t.me/mbrocoinnl
+Keybase  - https://keybase.io/team/mbrocoin/
 

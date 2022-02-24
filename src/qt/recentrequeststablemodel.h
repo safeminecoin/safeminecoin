@@ -54,7 +54,7 @@ private:
 };
 
 /**
- * Model for list of recently generated payment requests / SafeMineCoin: URIs.
+ * Model for list of recently generated payment requests / mbrocoin: URIs.
  * Part of wallet model.
  */
 class RecentRequestsTableModel: public QAbstractTableModel

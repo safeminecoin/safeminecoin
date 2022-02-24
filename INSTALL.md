@@ -1,5 +1,5 @@
-Building SafeMineCoin
+Building mbrocoin
 ================
 
 See doc/build-*.md for instructions on building the various
-elements of the SafeMineCoin reference implementation of SafeMineCoin.
+elements of the mbrocoin reference implementation of mbrocoin.

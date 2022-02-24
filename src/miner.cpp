@@ -593,7 +593,7 @@ void ThreadStakeMiner(CWallet *pwallet, const CChainParams& chainparams)
     LogPrintf("Staking started\n");
 
     // Make this thread recognisable as the mining thread
-    RenameThread("SafeMineCoin-miner");
+    RenameThread("mbrocoin-miner");
 
     CReserveKey reservekey(pwallet);
 

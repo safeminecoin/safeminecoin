@@ -840,10 +840,10 @@ UniValue checkkernel(const UniValue& params, bool fHelp)
         bool fCreateBlockTemplate = params.size() > 1 ? params[1].get_bool() : false;
 
         if (vNodes.empty())
-            throw JSONRPCError(-9, "SafeMineCoin is not connected!");
+            throw JSONRPCError(-9, "mbrocoin is not connected!");
 
         if (IsInitialBlockDownload())
-            throw JSONRPCError(-10, "SafeMineCoin is downloading blocks...");
+            throw JSONRPCError(-10, "mbrocoin is downloading blocks...");
 
         COutPoint kernel;
         CBlockIndex* pindexPrev = chainActive.Tip();

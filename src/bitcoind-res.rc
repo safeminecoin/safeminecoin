@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "SafeMineCoin"
-            VALUE "FileDescription",    "SafeMineCoind (SafeMineCoin node with a JSON-RPC server)"
+            VALUE "CompanyName",        "mbrocoin"
+            VALUE "FileDescription",    "mbrocoind (mbrocoin node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "SafeMineCoind"
+            VALUE "InternalName",       "mbrocoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "SafeMineCoind.exe"
-            VALUE "ProductName",        "SafeMineCoind"
+            VALUE "OriginalFilename",   "mbrocoind.exe"
+            VALUE "ProductName",        "mbrocoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
