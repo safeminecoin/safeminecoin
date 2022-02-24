@@ -149,9 +149,9 @@ public:
         vSeeds.push_back(CDNSSeedData("51.195.249.132", "51.195.249.132",true));
 	vSeeds.push_back(CDNSSeedData("158.69.130.185", "158.69.130.185",true)); 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63); // S
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,28); // C
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1,52); // M & N
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50); // M // 63 S
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,25); // B // 28 C
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1,60); // R // 52M & N
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
         cashaddrPrefix = "mbrocoin";
