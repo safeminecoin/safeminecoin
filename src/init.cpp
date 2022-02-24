@@ -489,8 +489,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/safeminecoin/safeminecoin>";
-    const std::string URL_WEBSITE = "<https://safeminecoin.org/>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/mbrocoin/mbrocoin>";
+    const std::string URL_WEBSITE = "<https://mbrocoin.org/>";
     // todo: remove urls from translations on next change
 
     // return FormatParagraph(strprintf(_("Copyright (C) %i-%i %s"), 2009, COPYRIGHT_YEAR, CopyrightHolders())) + "\n" +
@@ -500,9 +500,11 @@ std::string LicenseInfo()
            "\n" +
            FormatParagraph(strprintf("Copyright (C) %i-%i The Blackcoin More Developers", 2018, COPYRIGHT_YEAR)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf("Copyright (C) %i The SafeMineCoin Developers", 2021)) + "\n" +
+           FormatParagraph(strprintf("Copyright (C) %i The Safeminecoin Developers", 2021)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf(_("Please contribute if you find SafeMineCoin useful. "
+           FormatParagraph(strprintf("Copyright (C) %i The Mbrocoin Developers", 2022)) + "\n" +
+           "\n" +
+           FormatParagraph(strprintf(_("Please contribute if you find Mbrocoin useful. "
                        "Visit %s for further information about the software."),
                URL_WEBSITE)) +
            "\n" +
