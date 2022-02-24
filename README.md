@@ -35,8 +35,8 @@ Here are some ideas to get you started:
 * Coinbase maturity (default 21 confirmation) blocks
 * Transaction (default 6 confirmation) blocks
 * * Block Rewards
-	* PoW   50 SMCN per block (for last POW 500.000 blocks)
-	* PoS   5 SMCN per block
+	* PoW   50 MBRO per block (for last POW 500.000 blocks)
+	* PoS   5 MBRO per block
 	  *  Min. stake age   12 hours
 	  *  Max. stake age   Unlimited
 	* Premine and Developments 5.000.000 coins
