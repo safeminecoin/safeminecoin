@@ -5,7 +5,7 @@ Setup
 ---------------------
 mbrocoin is experimental mbrocoin client and it builds the backbone of the network. However, it downloads and stores the entire history of mbrocoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download mbrocoin, visit [safeminecoin.org](https://safeminecoin.org).
+To download mbrocoin, visit [mbrocoin.org](https://mbrocoin.org).
 
 Running
 ---------------------
@@ -31,7 +31,7 @@ Drag mbrocoin-More to your applications folder, and then run mbrocoin-More.
 * See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
 * Ask for help on [#mbrocoin](https://discord.gg/zmGr38eJYE) on Freenode.
-* Ask for help in [/r/mbrocoin/](https://nm.reddit.com/r/safeminecoin/) on Reddit.
+* Ask for help in [/r/mbrocoin/](https://nm.reddit.com/r/mbrocoin/) on Reddit.
 * Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [mbrocoin topic](https://bitcointalk.org/index.php?topic=5378794.msg58833379#msg58833379).
 
 Building
@@ -63,7 +63,7 @@ The mbrocoin repo's [root README](/README.md) contains relevant information on t
 
 ### Resources
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [mbrocoin topic](https://bitcointalk.org/index.php?topic=5378794.msg58833379#msg58833379).
-* Discuss mbrocoin development in [mbrocoin room](https://github.com/safeminecoin/safeminecoin) on Github.
+* Discuss mbrocoin development in [mbrocoin room](https://github.com/mbrocoin/mbrocoin) on Github.
 * Discuss mbrocoin development in [mbrocoin team](https://discord.gg/zmGr38eJYE) on Discord.
 
 ### Miscellaneous
