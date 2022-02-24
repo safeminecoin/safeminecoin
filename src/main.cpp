@@ -1783,16 +1783,16 @@ CAmount GetProofOfWorkSubsidy()
     int nBlockHeight = chainActive.Height() + 1;
 
     if (nBlockHeight == 1) {
-     return 100000 * COIN;
+     return 500000 * COIN;
     }
     if (nBlockHeight != 1) {
-    return 100 * COIN;
+    return 50 * COIN;
     }
 }
 
 CAmount GetProofOfStakeSubsidy()
 {
-    return COIN * 20;
+    return COIN * 5;
 }
 
 bool IsInitialBlockDownload()
