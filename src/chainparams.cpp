@@ -98,9 +98,9 @@ public:
         consensus.nProtocolV1RetargetingFixedTime = 1639822305;
         consensus.nProtocolV2Time = 1639822306;
         consensus.nProtocolV3Time = 1639822307;
-        consensus.nLastPOWBlock = 2000000;
+        consensus.nLastPOWBlock = 500000;
         consensus.nStakeTimestampMask = 0xf;
-        consensus.nCoinbaseMaturity = 20;
+        consensus.nCoinbaseMaturity = 5;
         consensus.nStakeMinAge = 12 * 60 * 60;
 
         // The best chain should have at least this much work.
@@ -115,8 +115,8 @@ public:
         pchMessageStart[1] = 0x3d;
         pchMessageStart[2] = 0x80;
         pchMessageStart[3] = 0x00;
-        nDefaultPort = 25252;
-        nPruneAfterHeight = 100000;
+        nDefaultPort = 14142;
+        nPruneAfterHeight = 5000000;
 
         genesis = CreateGenesisBlock(1639822305, 445016, 0x1e0ffff0, 1, 0);
         consensus.hashGenesisBlock = genesis.GetHash();
