@@ -100,7 +100,7 @@ public:
         consensus.nProtocolV3Time = 1639822307;
         consensus.nLastPOWBlock = 500000;
         consensus.nStakeTimestampMask = 0xf;
-        consensus.nCoinbaseMaturity = 5;
+        consensus.nCoinbaseMaturity = 20;
         consensus.nStakeMinAge = 12 * 60 * 60;
 
         // The best chain should have at least this much work.
