@@ -39,7 +39,7 @@ Here are some ideas to get you started:
 	* PoS   5 MBRO per block
 	  *  Min. stake age   12 hours
 	  *  Max. stake age   Unlimited
-	* Premine and Developments 5.000.000 coins
+	* Premine and Developments 1.000.000 coins
 * Target spacing    2 minutes
 * Target timespan   10 minutes
 
