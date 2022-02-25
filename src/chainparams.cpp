@@ -98,7 +98,7 @@ public:
         consensus.nProtocolV1RetargetingFixedTime = 1645757350;
         consensus.nProtocolV2Time = 1645757351;
         consensus.nProtocolV3Time = 1645757352;
-        consensus.nLastPOWBlock = 500000;
+        consensus.nLastPOWBlock = 100000;
         consensus.nStakeTimestampMask = 0xf;
         consensus.nCoinbaseMaturity = 20;
         consensus.nStakeMinAge = 12 * 60 * 60;
@@ -265,7 +265,7 @@ public:
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,111); // m & n
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        cashaddrPrefix = "smcntest";
+        cashaddrPrefix = "mbrotest";
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
@@ -317,12 +317,6 @@ public:
         // The best chain should have at least this much work.
         //consensus.nMinimumChainWork = uint256S("0x00");
 
-        /*
-        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
-        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 999999999999ULL; // never
-        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 0; // out of time
-        */
-
         consensus.nProtocolV1RetargetingFixedTime = 1639925421;
         consensus.nProtocolV2Time = 1639925422;
         consensus.nProtocolV3Time = 1639925423;
@@ -345,7 +339,7 @@ public:
         // consensus.hashGenesisBlock = uint256S("0x00");
 
         if (true && (genesis.GetHash() != consensus.hashGenesisBlock)) {
-		std::cout << std::string("Calculating testnet genesis block...\n");
+		std::cout << std::string("Calculating regtestnet genesis block...\n");
             arith_uint256 hashTarget = arith_uint256().SetCompact(genesis.nBits);
             uint256 hash;
             genesis.nNonce = 0;
@@ -374,7 +368,7 @@ public:
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1,126); // s & t
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        cashaddrPrefix = "smcnreg";
+        cashaddrPrefix = "mbroreg";
 
         fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = true;
