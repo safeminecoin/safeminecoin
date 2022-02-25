@@ -236,7 +236,7 @@ public:
 
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1639925421, 2121665, 0x1e0ffff0, 1, 0);
+        genesis = CreateGenesisBlock(1639925421, 2630509, 0x1e0ffff0, 1, 0);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         // calculate testnet genesis block
@@ -261,15 +261,15 @@ public:
             std::cout << "blockhash: " << genesis.GetHash().ToString().c_str() << "\n";
             std::cout << "merklehash: " << genesis.hashMerkleRoot.ToString().c_str() << "\n";
         }
-        assert(consensus.hashGenesisBlock == uint256S("0x000004fe4e10bad7e0a800bc952c3c84b8ccbe944228c294f1d6d2398dfcf7f5"));
-        assert(genesis.hashMerkleRoot == uint256S("0x287a180add21a87aa2662ed5f9612fa0e3326046c8aa2e3b446702a3ccf698f0"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000b86172860f0bc21cc121b0c69dd1a28761e345ba107f52fdc3d0f846b80"));
+        assert(genesis.hashMerkleRoot == uint256S("0xd46097e3e244abfa9085b3ce197aac36edd3a63da7f838e6869eb71cf0af81b4"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,66); // T
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,65); // T
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,111); // m & n
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,60); // R
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
         cashaddrPrefix = "mbrotest";
@@ -284,7 +284,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x000004fe4e10bad7e0a800bc952c3c84b8ccbe944228c294f1d6d2398dfcf7f5")),
+            ( 0, uint256S("0x00000b86172860f0bc21cc121b0c69dd1a28761e345ba107f52fdc3d0f846b80")),
             1639925421,
             0,
             0
