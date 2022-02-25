@@ -1,5 +1,12 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
+// Copyright (c) 2011-2013 The PPCoin Developers
+// Copyright (c) 2013-2014 The NovaCoin Developers
+// Copyright (c) 2014-2018 The BlackCoin Developers
+// Copyright (c) 2018-2022 The Blackcoin More Developers
+// Copyright (c) 2021-2022 The Safeminecoin developers
+// Copyright (c) 2022 The Mbrocoin developers
+
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -116,9 +123,9 @@ public:
         pchMessageStart[2] = 0x80;
         pchMessageStart[3] = 0x00;
         nDefaultPort = 14142;
-        nPruneAfterHeight = 5000000;
+        nPruneAfterHeight = 1000000;
 
-        genesis = CreateGenesisBlock(1645757350, 801059, 0x1e0ffff0, 1, 0);
+        genesis = CreateGenesisBlock(1645757350, 932906, 0x1e0ffff0, 1, 0);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         // calculate main genesis block
@@ -143,8 +150,8 @@ public:
             std::cout << "blockhash: " << genesis.GetHash().ToString().c_str() << "\n";
             std::cout << "merklehash: " << genesis.hashMerkleRoot.ToString().c_str() << "\n";
         }
-        assert(consensus.hashGenesisBlock == uint256S("0x5d8baf51441c54797e5570ccb8dd876af5c7a44b32311fe34f1f2eee66f49d88"));
-        assert(genesis.hashMerkleRoot == uint256S("0x9d74cc6407493347fb143d450596d190ca49157201d838347e6540afc78bff40"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000684613ed8666eb673391dae7d76ba9420cadf4a1912775ae3759689923a"));
+        assert(genesis.hashMerkleRoot == uint256S("0xcc226f59f67c2bc303d8d77483d959c4639cbed5d628081b51938267df09ccdf"));
 
         vSeeds.push_back(CDNSSeedData("51.195.249.132", "51.195.249.132",true));
 	vSeeds.push_back(CDNSSeedData("158.69.130.185", "158.69.130.185",true)); 
@@ -166,7 +173,7 @@ public:
 
         checkpointData = (CCheckpointData) {
                     boost::assign::map_list_of
-                    (0, uint256S("0x5d8baf51441c54797e5570ccb8dd876af5c7a44b32311fe34f1f2eee66f49d88")),
+                    (0, uint256S("0x00000684613ed8666eb673391dae7d76ba9420cadf4a1912775ae3759689923a")),
                     1645757350, // * UNIX timestamp of last checkpoint block
                     0,    // * total number of transactions between genesis and last checkpoint
                                 //   (the tx=... number in the SetBestChain debug.log lines)
