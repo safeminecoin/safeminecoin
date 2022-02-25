@@ -47,7 +47,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "Kiamat Tahun 2060 - 12/18/2021";
+    const char* pszTimestamp = "Appreciate your coins like you keep your Life!";
     const CScript genesisOutputScript = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -95,9 +95,9 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 0; // out of time
         */
 
-        consensus.nProtocolV1RetargetingFixedTime = 1639822305;
-        consensus.nProtocolV2Time = 1639822306;
-        consensus.nProtocolV3Time = 1639822307;
+        consensus.nProtocolV1RetargetingFixedTime = 1645757350;
+        consensus.nProtocolV2Time = 1645757351;
+        consensus.nProtocolV3Time = 1645757352;
         consensus.nLastPOWBlock = 500000;
         consensus.nStakeTimestampMask = 0xf;
         consensus.nCoinbaseMaturity = 20;
@@ -111,14 +111,14 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xb5;
-        pchMessageStart[1] = 0x3d;
+        pchMessageStart[0] = 0x3d;
+        pchMessageStart[1] = 0xb5;
         pchMessageStart[2] = 0x80;
         pchMessageStart[3] = 0x00;
         nDefaultPort = 14142;
         nPruneAfterHeight = 5000000;
 
-        genesis = CreateGenesisBlock(1639822305, 445016, 0x1e0ffff0, 1, 0);
+        genesis = CreateGenesisBlock(1645757350, 801059, 0x1e0ffff0, 1, 0);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         // calculate main genesis block
@@ -143,8 +143,8 @@ public:
             std::cout << "blockhash: " << genesis.GetHash().ToString().c_str() << "\n";
             std::cout << "merklehash: " << genesis.hashMerkleRoot.ToString().c_str() << "\n";
         }
-        assert(consensus.hashGenesisBlock == uint256S("0x00000515601d3a48a250b62584becbc12fa50fb12609dc81b0732e9a05804d72")); // 0x517419178a8d6c9d45c2d42bd3bab24419bf4ad0433410d0fd32458367caef9e"));
-        assert(genesis.hashMerkleRoot == uint256S("0xb1aaa2e7d1bc5b982c83b94787057b2e7394062097e07944d55b51d23549a452")); //0xf0701c31be26a51c1c8d1bc857c4b49a5d54349ad912b42102ca2c0a164d1513"));
+        assert(consensus.hashGenesisBlock == uint256S("0x5d8baf51441c54797e5570ccb8dd876af5c7a44b32311fe34f1f2eee66f49d88"));
+        assert(genesis.hashMerkleRoot == uint256S("0x"));
 
         vSeeds.push_back(CDNSSeedData("51.195.249.132", "51.195.249.132",true));
 	vSeeds.push_back(CDNSSeedData("158.69.130.185", "158.69.130.185",true)); 
@@ -166,8 +166,8 @@ public:
 
         checkpointData = (CCheckpointData) {
                     boost::assign::map_list_of
-                    (0, uint256S("0x00000515601d3a48a250b62584becbc12fa50fb12609dc81b0732e9a05804d72")),
-                    1639822305, // * UNIX timestamp of last checkpoint block
+                    (0, uint256S("0x5d8baf51441c54797e5570ccb8dd876af5c7a44b32311fe34f1f2eee66f49d88")),
+                    1645757350, // * UNIX timestamp of last checkpoint block
                     0,    // * total number of transactions between genesis and last checkpoint
                                 //   (the tx=... number in the SetBestChain debug.log lines)
                     0      // * estimated number of transactions per day after checkpoint
