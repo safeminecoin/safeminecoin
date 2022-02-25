@@ -144,7 +144,7 @@ public:
             std::cout << "merklehash: " << genesis.hashMerkleRoot.ToString().c_str() << "\n";
         }
         assert(consensus.hashGenesisBlock == uint256S("0x5d8baf51441c54797e5570ccb8dd876af5c7a44b32311fe34f1f2eee66f49d88"));
-        assert(genesis.hashMerkleRoot == uint256S("0x"));
+        assert(genesis.hashMerkleRoot == uint256S("0x9d74cc6407493347fb143d450596d190ca49157201d838347e6540afc78bff40"));
 
         vSeeds.push_back(CDNSSeedData("51.195.249.132", "51.195.249.132",true));
 	vSeeds.push_back(CDNSSeedData("158.69.130.185", "158.69.130.185",true)); 
