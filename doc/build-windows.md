@@ -40,3 +40,21 @@ To build executables for Windows 64-bit:
 
 For further documentation on the depends system see [README.md](../depends/README.md) in the depends directory.
 
+## Depends system
+
+For further documentation on the depends system see [README.md](../depends/README.md) in the depends directory.
+
+Installation
+-------------
+
+After building using the Windows subsystem it can be useful to copy the compiled
+executables to a directory on the windows drive in the same directory structure
+as they appear in the release `.zip` archive. This can be done in the following
+way. This will install to `c:\workspace\safeminecoin`, for example:
+
+    make install DESTDIR=/mnt/c/local/safeminecoin
+
+You can also create an installer using:
+
+    make deploy
+
