@@ -142,32 +142,7 @@ public:
         checkpointData = (CCheckpointData) {
                     boost::assign::map_list_of
                     (0, uint256S("0x00000515601d3a48a250b62584becbc12fa50fb12609dc81b0732e9a05804d72"))
-                    (1, uint256S("0x32dc2924900fb76381db38f17e989436d76343c390a621c0a05cd02ab1e20513"))
-                    (10, uint256S("0xcb0c22e1370e3e404f1c6bf7d4cd6a6e396dbbd5e1a07f508b891ba3d9bbf26b"))
-                    (100, uint256S("0x8711af7c030f16ac97740741e7f165873b2fc17e7ed80cc8c573d83deaa14f08"))
-                    (500, uint256S("0x69c7b234762fd61fdceeafbdebd7e1b1c0babf6acdc95a42414c97a4055721e9"))
-                    (1000, uint256S("0x3ed6c5975909c6fc90e9d76668c49504df6302cdfb20fb8a0ee1e6bed3d3b9eb"))
-                    (2500, uint256S("0x3e9dcf7f5fe7ef42c65c8755834062189ae6c9fd58a87a3dbc71d55c9ec4d56b"))
-                    (5000, uint256S("0xd828bf4047e7afdd911294114a78401b97691c3b0cd809b2aff3b59310d2c3a2"))
-                    (10000, uint256S("0x307a45c376657afddd76d544145d6b0c2e6c9750f18076b655f68a93d1a1eb0e"))
-                    (20000, uint256S("0x77d0e6ea02017aa61429f8d7583b5f3fd940ae1bc3d622510535ae9235ecd36c"))
-                    (30000, uint256S("0x49c49182606df0f96f601c51d473a50ab8bb9c753bdfa2bd8f06738490e6188d"))
-                    (40000, uint256S("0x8310825145ad564fb90e5b3fac96c872a29bcb03ea773f26982dbad8cc301779"))
-                    (50000, uint256S("0x24ad0a7aba5acd0005f940b541d7cd414d4dedafba569d8560fe151b460b1b2e"))
-                    (60000, uint256S("0x25388c8adb64f98c87c757f5a16ed8b024c406a9e27407a17dec8cfb06e35108"))
-                    (70000, uint256S("0x36aea3baf6813045b9c33ff36995a34657bb3ce40bd3cb2647b74acdb9899889"))
-                    (80000, uint256S("0x32c438384d87ab102c9a34125d5558feabaebe347863bb1e7488ea66a070031c"))
-                    (90000, uint256S("0x97c805c8ca6d2875bdbc8d50b266b73758e1831e316c296af758307e9eaff071"))
-                    (100000, uint256S("0x9b70416ae1e8f5f8f4ef468d1f82b89315629fd9892ddb10d761f105fe84ba95"))
-                    (110000, uint256S("0xd8a74c510bd0aac22d2c576cc5dc2ab627a76ee554057092e677d2c0af8a7293"))
-                    (111000, uint256S("0xf46b7a32a82e17582a358eb078f88dfd69c00f2f77a66bfe553fbee03bfac94f"))
-                    (112000, uint256S("0xda3b28af2fb9662e36d9a54559e92a3c09dffddf121b25520071481211bb1ded"))					
-                    (113000, uint256S("0x1d6a1937d6b14376895764efce17b1f9a3a36c97350facf76d4e492f6c9361e5"))				
-                    (114000, uint256S("0x78ea77831b4468f31e70729c5d86454118927477791709cf5cf043677dc0df5c"))
-                    (115000, uint256S("0xd73a781db14d789f743c04a3fe8a5d618b97b23157e0a7a306c43dae086728cb"))
-                    (116000, uint256S("0x7d9592254fb5f665a58eaaebc5dea68a22eff5c278d0da1a925b4e83d9fef02a"))
-                    (117000, uint256S("0xd0d5dd7d346a328f877e6eca9e1bbe3b2521f7b89d94d0edee3bb86bcc9ee689"))
-                    (117500, uint256S("0x54adae4dd49be15d72a5c69f5db17dcb56e9a7a1fd0117f84007e497b4d02460")),					
+                    (123600, uint256S("db7b2e65576491e6dd0d44008870d6252d06c5669dc6ea929dce3c0c755fcad6")),					
                     1648805367, // * UNIX timestamp of last checkpoint block
                     0,    // * total number of transactions between genesis and last checkpoint
                                 //   (the tx=... number in the SetBestChain debug.log lines)
