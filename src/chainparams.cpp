@@ -119,7 +119,6 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000515601d3a48a250b62584becbc12fa50fb12609dc81b0732e9a05804d72"));
         assert(genesis.hashMerkleRoot == uint256S("0xb1aaa2e7d1bc5b982c83b94787057b2e7394062097e07944d55b51d23549a452"));
 
-        vSeeds.push_back(CDNSSeedData("dnsseed.safeminecoin.org", "dnsseed.safeminecoin.org",true));
 		vSeeds.push_back(CDNSSeedData("51.77.48.45", "51.77.48.45",true));   
 		vSeeds.push_back(CDNSSeedData("51.195.249.132", "51.195.249.132",true));
         vSeeds.push_back(CDNSSeedData("135.125.225.55", "135.125.225.55",true));
