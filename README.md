@@ -27,8 +27,8 @@ The SafeMineCoin is a hybrid PoW/PoS based cryptocurrency
 * Coinbase maturity (default 21 confirmation) blocks
 * Transaction (default 6 confirmation) blocks
 * * Block Rewards
-	* PoW   100 SMCN per block (for last POW 2.000.000 blocks)
-	* PoS   20 SMCN per block
+	* PoW   100 SMCN per block (for last POW 2.000.000 blocks) reduce to 5 SMCN
+	* PoS   20 SMCN per block reduce to 2 SMCN
 	  *  Min. stake age   12 hours
 	  *  Max. stake age   Unlimited
 	* Premine  100000 coins
