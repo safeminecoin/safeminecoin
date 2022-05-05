@@ -24,17 +24,17 @@ In case you want to build the disk image with `make deploy` (.dmg / optional), y
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build SafeMineCoin
+Build Blackcoin More
 ------------------------
 
-1. Clone the SafeMineCoin source code and cd into `SafeMineCoin`
+1. Clone the blackcoin source code and cd into `blackcoin-more`
 
-        git clone https://gitlab.com/SafeMineCoin/SafeMineCoin/
-        cd SafeMineCoin
+        git clone https://gitlab.com/blackcoin/blackcoin-more/
+        cd blackcoin-more
 
-2.  Build SafeMineCoin:
+2.  Build blackcoin-more:
 
-    Configure and build the headless SafeMineCoin binaries as well as the GUI (if Qt is found).
+    Configure and build the headless blackcoin binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -53,37 +53,37 @@ Build SafeMineCoin
 Running
 -------
 
-SafeMineCoin is now available at `./src/SafeMineCoind`
+Blackcoin More is now available at `./src/blackmored`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=SafeMineCoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/SafeMineCoin/SafeMineCoin.conf"
+    echo -e "rpcuser=blackcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Blackmore/blackmore.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/SafeMineCoin/SafeMineCoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Blackmore/blackmore.conf"
 
-The first time you run SafeMineCoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run blackmored, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/SafeMineCoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Blackmore/debug.log
 
 Other commands:
 -------
 
-    ./src/SafeMineCoind -daemon # Starts the SafeMineCoin daemon.
-    ./src/SafeMineCoin-cli --help # Outputs a list of command-line options.
-    ./src/SafeMineCoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/blackmored -daemon # Starts the blackcoin daemon.
+    ./src/blackmore-cli --help # Outputs a list of command-line options.
+    ./src/blackmore-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
-You can use Qt Creator as an IDE, for SafeMineCoin development.
+You can use Qt Creator as an IDE, for blackcoin development.
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "SafeMineCoin-qt" as project name, enter src/qt as location
+4. Enter "blackmore-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
