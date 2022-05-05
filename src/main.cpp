@@ -1778,22 +1778,35 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex, const Consensus
     return true;
 }
 
+// ==============================================================================================================================================================
+
+//----------------------------- PoW Miner Reward --------------------------------  //
+
 CAmount GetProofOfWorkSubsidy()
 {
     int nBlockHeight = chainActive.Height() + 1;
 
-    if (nBlockHeight == 1) {
-     return 100000 * COIN;
+    if (nBlockHeight == 1) { return 100000 * COIN;
     }
-    if (nBlockHeight != 1) {
-    return 100 * COIN;
+    if (nBlockHeight <= 154000) { return 100 * COIN;
+    }
+    if (nBlockHeight >= 154001) { return 5 * COIN;
     }
 }
 
+//----------------------------- PoS Miner Reward --------------------------------  //
+
 CAmount GetProofOfStakeSubsidy()
 {
-    return COIN * 20;
+    int nBlockHeight = chainActive.Height() + 1;
+    
+    if (nBlockHeight <= 154000) { return 20 * COIN;
+    }
+    if (nBlockHeight >= 154001) { return 2 * COIN;
+    }
 }
+
+// ==============================================================================================================================================================
 
 bool IsInitialBlockDownload()
 {
