@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 The SafeMineCoin is a hybrid PoW/PoS based cryptocurrency
 
 ### Coin Specification
-* Algorithm: Scrypt Proof of Work and Proof of Stake, Masternode (soon)
+* Algorithm: Scrypt Proof of Work and Proof of Stake
 * Coin Name    Safeminecoin
 * Coin Ticker  SMCN
 * Public Address  S
@@ -32,7 +32,6 @@ The SafeMineCoin is a hybrid PoW/PoS based cryptocurrency
 	  *  Min. stake age   12 hours
 	  *  Max. stake age   Unlimited
 	* Premine  100000 coins
-	* Masternodes (soon)
 * Target spacing    2 minutes
 * Target timespan   10 minutes
  
