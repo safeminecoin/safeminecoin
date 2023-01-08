@@ -119,12 +119,12 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000515601d3a48a250b62584becbc12fa50fb12609dc81b0732e9a05804d72"));
         assert(genesis.hashMerkleRoot == uint256S("0xb1aaa2e7d1bc5b982c83b94787057b2e7394062097e07944d55b51d23549a452"));
 
-	vSeeds.push_back(CDNSSeedData("dnsseed.safeminecoin.org", "vps.safeminecoin.org",true));
-	vSeeds.push_back(CDNSSeedData("dnsseed2.safeminecoin.org", "dnsseed2.safeminecoin.org",true));
-	vSeeds.push_back(CDNSSeedData("dnsseed3.safeminecoin.org", "dnsseed3.safeminecoin.org",true));
-	vSeeds.push_back(CDNSSeedData("dnsseed4.safeminecoin.org", "dnsseed4.safeminecoin.org",true));
-	vSeeds.push_back(CDNSSeedData("dnsseed5.safeminecoin.org", "dnsseed5.safeminecoin.org",true));
-	vSeeds.push_back(CDNSSeedData("dnsseed6.safeminecoin.org", "dnsseed6.safeminecoin.org",true));
+	vSeeds.push_back(CDNSSeedData("dnsseed.safeminecoin.org", "vps.safeminecoin.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed2.safeminecoin.org", "dnsseed2.safeminecoin.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed3.safeminecoin.org", "dnsseed3.safeminecoin.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed4.safeminecoin.org", "dnsseed4.safeminecoin.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed5.safeminecoin.org", "dnsseed5.safeminecoin.org"));
+	vSeeds.push_back(CDNSSeedData("dnsseed6.safeminecoin.org", "dnsseed6.safeminecoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63); // S
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,28); // C
