@@ -264,7 +264,7 @@ AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
   [build bitcoind daemon (default=yes)])],
   [build_bitcoind=$withval],
-  [build_d=yes])
+  [build_bitcoind=yes])
 
 use_pkgconfig=yes
 case $host in
@@ -615,7 +615,7 @@ AC_SUBST(LIBMEMENV)
 
 if test x$enable_wallet != xno; then
     dnl Check for libdb_cxx only if wallet enabled
-    _FIND_BDB62
+    BITCOIN_FIND_BDB62
 fi
 
 dnl Check for libminiupnpc (optional)
