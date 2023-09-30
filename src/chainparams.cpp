@@ -71,8 +71,12 @@ public:
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.fPoSNoRetargeting = false;
-        consensus.nRuleChangeActivationThreshold = 5;
-        consensus.nMinerConfirmationWindow = 5;
+
+        consensus.nRuleChangeActivationThreshold = 6048; // 75% of 8064
+        consensus.nMinerConfirmationWindow = 8064; // nPowTargetTimespan / nPowTargetSpacing * 4
+        // consensus.nRuleChangeActivationThreshold = 5;
+        // consensus.nMinerConfirmationWindow = 5;
+	    
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
@@ -143,9 +147,9 @@ public:
 
         checkpointData = (CCheckpointData) {
                     boost::assign::map_list_of
-                    (0, uint256S("0x00000515601d3a48a250b62584becbc12fa50fb12609dc81b0732e9a05804d72"))
-                    (154000, uint256S("0xdb72c098b2304ecb37cc9cbf5a076f08f3b15b61bae3dfca28ca4cd786de8263"))
-	            (154001, uint256S("0x0b630138cfd77ec2fbbfbeac05f8996db8b28ea4e57934c9600102480f614b4c"))
+                    // (0, uint256S("0x00000515601d3a48a250b62584becbc12fa50fb12609dc81b0732e9a05804d72"))
+                   // (154000, uint256S("0xdb72c098b2304ecb37cc9cbf5a076f08f3b15b61bae3dfca28ca4cd786de8263"))
+	            (154001, uint256S("0x0b630138cfd77ec2fbbfbeac05f8996db8b28ea4e57934c9600102480f614b4c"))  // hardfork
                     (154375, uint256S("0x5fe3d6ee333bdf01e2aac39834a042d0855bd79c5a4e6fa497e39216e5abda0f")),
                     1651806385, // * UNIX timestamp of last checkpoint block, Fri, 06 May 2022 03:06:25
                     0,    // * total number of transactions between genesis and last checkpoint
