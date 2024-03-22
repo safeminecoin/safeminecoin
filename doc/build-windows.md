@@ -76,7 +76,10 @@ Acquire the source in the usual way:
     cd blackcoin-more
 
 ## Building for OSX
+cd safeminecoin
 
+    PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
+    
 on depends Folder :
 
     cd SDKs
