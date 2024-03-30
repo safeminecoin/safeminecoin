@@ -82,11 +82,13 @@ cd safeminecoin
     
 on depends Folder :
 
+    cd depends
     cd SDKs
     wget https://bitcoincore.org/depends-sources/sdks/Xcode-12.1-12A7403-extracted-SDK-with-libcxx-headers.tar.gz
     tar -xzvf Xcode-12.1-12A7403-extracted-SDK-with-libcxx-headers.tar.gz
     cd ..
     make HOST=x86_64-apple-darwin18 -j12
+    cd ..
     ./autogen.sh
     CONFIG_SITE=$PWD/depends/x86_64-apple-darwin18/share/config.site ./configure --enable-reduce-exports --disable-bench -disable-tests --enable-upnp-default --prefix=/
 
